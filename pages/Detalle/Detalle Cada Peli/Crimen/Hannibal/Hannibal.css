@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    background-color: rgba(18, 27, 43, 1);
+    color: aliceblue;
+}
+
+h2{
+    text-align: center;
+}
+
+.icono{
+    text-align: center;
+    cursor: pointer ;
+}
+
+.colorM{
+    background-color: rgb(0, 0, 0);
+    
+}
+
+
+.ver{
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+    
+}
+
+.wpp{
+    text-decoration: none;
+}
+
+.botones{
+    width: 99%;
+    justify-content: center;
+
+}

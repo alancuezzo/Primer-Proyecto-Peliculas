@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.contenedor{
+    display: flex;
+    
+}
+
+img{
+    height: 350px;
+    width: 250px;
+    border-radius: 3px;
+    transition: .5s;
+
+}
+
+.carta{
+    height: 350px;
+    margin: 15px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+
+.intro{
+    height: 70px;
+    width: 250px;
+    padding: 6px;
+    bottom: 360px;
+    box-sizing: border-box;
+    position: absolute;
+    background: rgb(27,27, 27, 0.5);
+    color: white;
+    transition: .5s;
+}
+
+h1{
+    margin: 10px;
+    font-size: 40px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.botonCard{
+    visibility: hidden;
+    opacity: 0;
+    
+    
+}
+
+.carta:hover{
+    cursor: pointer;
+}
+
+.carta:hover .intro{
+    height: 120px;
+    bottom: 360px;
+    background: rgb(27,27, 27, 0.5);
+
+}
+
+.carta:hover h1{
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.card:hover img{
+    transform: scale(1.1);
+}
+
+.carta:hover .botonCard{
+    opacity: 1;
+    visibility: visible;
+    
+}

@@ -31,7 +31,7 @@ img{
     padding: 6px;
     bottom: 360px;
     box-sizing: border-box;
-    position: absolute;
+    position: relative;
     background: rgb(27,27, 27, 0.5);
     color: white;
     transition: .5s;

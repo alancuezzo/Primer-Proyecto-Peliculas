@@ -28,15 +28,16 @@ img{
     margin: 15px;
     box-shadow: 5px 5px 20px black;
     overflow: hidden;
+    
 }
 
 .intro{
     height: 80px;
     width: 250px;
     padding: 6px;
-    bottom: 303px;
+    bottom: 80px;
     box-sizing: border-box;
-    position: absolute;
+    position: relative;
     background: rgb(27,27, 27, 0.5);
     color: white;
     transition: .5s;
@@ -63,7 +64,7 @@ h1{
 
 .carta:hover .intro{
     height: 120px;
-    bottom: 303px;
+    bottom: 120px;
     background: rgb(27,27, 27, 0.5);
 
 }
@@ -84,93 +85,7 @@ h1{
     
 }
 
-@media only screen and (max-width:1200px) {
-    *{
-        margin: 0;
-        background-color: rgba(18, 27, 43, 1);
-        color: aliceblue;
-    }
-    
-    .textoCategorias{
-        color: aliceblue;
-        text-decoration: none;
-        
-    }
-    
-    .contenedor{
-        display: flex;
-        
-    }
-    
-    img{
-        height: 350px;
-        width: 216px;
-        border-radius: 3px;
-        transition: .5s;
-    
-    }
-    
-    .carta{
-        height: 350px;
-        margin: 15px;
-        box-shadow: 5px 5px 20px black;
-        overflow: hidden;
-    }
-    
-    .intro{
-        height: 80px;
-        width: 216px;
-        padding: 6px;
-        bottom: 216px;
-        box-sizing: border-box;
-        position: absolute;
-        background: rgb(27,27, 27, 0.5);
-        color: white;
-        transition: .5s;
-    }
-    
-    h1{
-        margin: 10px;
-        width: auto;
-        font-size: 20px;
-        text-align: center;
-        background-color: transparent;
-    }
-    
-    .botonCard{
-        visibility: hidden;
-        opacity: 0;
-        
-        
-    }
-    
-    .carta:hover{
-        cursor: pointer;
-    }
-    
-    .carta:hover .intro{
-        height: 120px;
-        bottom: 218px;
-        background: rgb(27,27, 27, 0.5);
-    
-    }
-    
-    .carta:hover h1{
-        opacity: 1;
-        visibility: visible;
-    
-    }
-    
-    .carta:hover img{
-        transform: scale(1.1);
-    }
-    
-    .carta:hover .botonCard{
-        opacity: 1;
-        visibility: visible;
-        
-    }
-}
+
 
 @media only screen and (max-width:1000px) {
 
@@ -209,6 +124,7 @@ h1{
         width: 300px;
         box-shadow: 5px 5px 20px black;
         overflow: hidden;
+        position: relative;
     }
     
     
@@ -234,7 +150,7 @@ h1{
     
     .carta:hover .intro1{
         height: 120px;
-        top: 302px;
+        top: 230px;
         background: rgb(27,27, 27, 0.5);
         
     
@@ -242,21 +158,21 @@ h1{
 
     .carta:hover .intro2{
         height: 120px;
-        top: 302px;
+        top: 230px;
         background: rgb(27,27, 27, 0.5);
     
     }
 
     .carta:hover .intro3{
         height: 120px;
-        top: 682px;
+        top: 230px;
         background: rgb(27,27, 27, 0.5);
     
     }
 
     .carta:hover .intro4{
         height: 120px;
-        top: 682px;
+        top: 230px;
         background: rgb(27,27, 27, 0.5);
     
     }
@@ -281,7 +197,7 @@ h1{
         height: 80px;
         width: 300px;
         padding: 6px;
-        top: 342px;
+        top: 270px;
         box-sizing: border-box;
         position: absolute;
         background: rgb(27,27, 27, 0.5);
@@ -294,7 +210,7 @@ h1{
         height: 80px;
         width: 300px;
         padding: 6px;
-        top: 342px;
+        top: 270px;
         box-sizing: border-box;
         position: absolute;
         background: rgb(27,27, 27, 0.5);
@@ -307,7 +223,7 @@ h1{
         height: 80px;
         width: 300px;
         padding: 6px;
-        top: 722px;
+        top: 270px;
         box-sizing: border-box;
         position: absolute;
         background: rgb(27,27, 27, 0.5);
@@ -320,7 +236,7 @@ h1{
         height: 80px;
         width: 300px;
         padding: 6px;
-        top: 722px;
+        top: 270px;
         box-sizing: border-box;
         position: absolute;
         background: rgb(27,27, 27, 0.5);
@@ -332,7 +248,13 @@ h1{
         flex-wrap: wrap;
     }
     
+    .anuncio{
+        
+        margin-inline: 10px;
+       
+   }
 
+   
 
 }
 
@@ -354,6 +276,7 @@ h1{
         width: 300px;
         box-shadow: 5px 5px 20px black;
         overflow: hidden;
+        position: relative;
     }
     
     
@@ -381,28 +304,30 @@ h1{
 
     .carta:hover .intro1{
         height: 120px;
-        bottom: 215px;
+        top: 230px;
         background: rgb(27,27, 27, 0.5);
+        
+        
     
     }
 
     .carta:hover .intro2{
         height: 120px;
-        top: 682px;
+        top: 230px;
         background: rgb(27,27, 27, 0.5);
     
     }
 
     .carta:hover .intro3{
         height: 120px;
-        top: 1062px;
+        top: 230px;
         background: rgb(27,27, 27, 0.5);
     
     }
 
     .carta:hover .intro4{
         height: 120px;
-        top: 1442px;
+        top: 230px;
         background: rgb(27,27, 27, 0.5);
     
     }
@@ -427,7 +352,7 @@ h1{
         height: 80px;
         width: 300px;
         padding: 6px;
-        top: 342px;
+        top: 270px;
         box-sizing: border-box;
         position: absolute;
         background: rgb(27,27, 27, 0.5);
@@ -440,7 +365,7 @@ h1{
         height: 80px;
         width: 300px;
         padding: 6px;
-        top: 722px;
+        top: 270px;
         box-sizing: border-box;
         position: absolute;
         background: rgb(27,27, 27, 0.5);
@@ -453,7 +378,7 @@ h1{
         height: 80px;
         width: 300px;
         padding: 6px;
-        top: 1102px;
+        top: 270px;
         box-sizing: border-box;
         position: absolute;
         background: rgb(27,27, 27, 0.5);
@@ -466,18 +391,18 @@ h1{
         height: 80px;
         width: 300px;
         padding: 6px;
-        top: 1482px;
+        top: 270px;
         box-sizing: border-box;
         position: absolute;
         background: rgb(27,27, 27, 0.5);
         color: white;
         transition: .5s;
+        
     }
 
     .categorias{
         flex-wrap: wrap;
     }
-    
     
 
 

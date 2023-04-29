@@ -414,7 +414,8 @@ h1{
     }
     
     .anuncio {
-        visibility: hidden;
+        display: none;
+        
     }
 
 

@@ -478,7 +478,9 @@ h1{
         flex-wrap: wrap;
     }
     
-    
+    .anuncio {
+        visibility: hidden;
+    }
 
 
 }

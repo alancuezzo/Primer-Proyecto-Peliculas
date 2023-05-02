@@ -1,9 +1,9 @@
 
 body{
-  background-color: rgb(193, 186, 186);
+  background-color: rgba(18, 27, 43, 1);
 }
 .titulocontacto{
-  color:rgb(13, 88, 126);
+  color:rgb(18, 116, 165);
 }
 
 form {
@@ -26,7 +26,7 @@ form {
   }
   
   input[type="submit"] {
-    background-color: rgba(0, 41, 61, 1);
+    background-color: rgb(76, 93, 101);
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -38,6 +38,6 @@ form {
   
   
   input[type="submit"]:hover {
-    background-color:rgba(18, 27, 43, 1);
+    background-color:rgb(43, 98, 194);
   }
 

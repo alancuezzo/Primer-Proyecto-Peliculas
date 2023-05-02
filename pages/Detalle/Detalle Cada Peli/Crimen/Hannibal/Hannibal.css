@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 *{
     margin: 0;
     background-color: rgba(18, 27, 43, 1);
     color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
 }
-
 h2{
     text-align: center;
 }

@@ -312,6 +312,7 @@ position: relative;
         width: 300px;
         border-radius: 3px;
         transition: .5s;
+       
     
     }
 
@@ -325,7 +326,7 @@ position: relative;
         position: relative;
     }
     
-    
+   
     
     h1{
         margin: 10px;
@@ -455,6 +456,24 @@ position: relative;
         
     }
 
+    .GaleriaIntro{
+
+        position: relative;  
+        }
+        
+        .GaleriaIntro2{
+            position: absolute;
+            top: 10px;
+            left: 80px;
+            background-color: transparent;
+            font-size: 20px;
+        
+        }
+        
+        .GaleriaIntro3{
+            text-decoration: none;
+            color: white;
+        }
 
 }
 

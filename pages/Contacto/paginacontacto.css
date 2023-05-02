@@ -1,0 +1,43 @@
+
+body{
+  background-color: rgb(193, 186, 186);
+}
+.titulocontacto{
+  color:rgb(13, 88, 126);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"], input[type="email"], textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    background-color: rgba(0, 41, 61, 1);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  
+  
+  input[type="submit"]:hover {
+    background-color:rgba(18, 27, 43, 1);
+  }
+

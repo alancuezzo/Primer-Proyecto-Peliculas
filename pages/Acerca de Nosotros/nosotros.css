@@ -1,0 +1,9 @@
+img:hover{
+    filter: grayscale(40%);
+    transition: 350ms;
+  }
+  .logoFooter{
+
+    width: 200px;
+    height: 100px;
+}

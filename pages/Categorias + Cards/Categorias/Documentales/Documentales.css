@@ -2,9 +2,13 @@
 
 *{
     margin: 0;
-    background-color: rgba(18, 27, 43, 1);
+
     color: aliceblue;
     font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: rgba(18, 27, 43, 1);
 }
 
 .textoCategorias{
@@ -93,6 +97,12 @@ h1{
     
 }
 
+.logoFooter{
+
+    width: 200px;
+    height: 100px;
+}
+
 
 
 
@@ -100,8 +110,11 @@ h1{
 
     *{
         margin: 0;
-        background-color: rgba(18, 27, 43, 1);
         color: aliceblue;
+    }
+
+    body{
+        background-color: rgba(18, 27, 43, 1);
     }
     
     .textoCategorias{

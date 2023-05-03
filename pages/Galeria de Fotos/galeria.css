@@ -21,6 +21,14 @@ body{
     
 }
 
+
+
+.logoFooter{
+
+    width: 200px;
+    height: 100px;
+}
+
 .GaleriaHome{
     height: 2rem;
     border-radius: 5%;
@@ -43,16 +51,7 @@ header{
     background-color: rgba(0, 41, 61, 1);;
 
 }
-a{
-    background-color: rgb(98, 129, 233);
-    border-radius: 10px;
-    color: aliceblue;
-    text-decoration: none;
-}
-a:hover{
-    background-color: aliceblue;
-    color: rgb(171, 193, 255);
-}
+
 
 .fondoModal{
 background-color: rgba(18, 27, 43, 1);

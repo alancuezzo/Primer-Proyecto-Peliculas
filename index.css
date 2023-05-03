@@ -234,6 +234,12 @@ position: relative;
     color: white;
 }
 
+.logoFooter{
+
+    width: 200px;
+    height: 100px;
+}
+
 @media only screen and (min-width:1200px){
 
     .anuncio{

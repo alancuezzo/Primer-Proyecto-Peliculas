@@ -138,7 +138,7 @@ background: -moz-linear-gradient(90deg,#7700ff 0%, #a500ff 80%);
 
 .contenedor{
     display: flex;
-    
+    justify-content: center;
 }
 
 img{
@@ -247,7 +247,7 @@ position: relative;
 
     *{
         margin: 0;
-        background-color: rgba(18, 27, 43, 1);
+        /* background-color: rgba(18, 27, 43, 1); */
         color: aliceblue;
     }
     
@@ -258,13 +258,13 @@ position: relative;
     }
 
    
-    
 
     .contenedor{
     display: flex;
     flex-direction: row ;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
     }
 
     img{
@@ -356,9 +356,9 @@ position: relative;
         height: 80px;
         width: 300px;
         padding: 6px;
-        top: 270px;
         box-sizing: border-box;
         position: absolute;
+        top: 270px;
         background: rgb(27,27, 27, 0.5);
         color: white;
         transition: .5s;
@@ -369,9 +369,9 @@ position: relative;
         height: 80px;
         width: 300px;
         padding: 6px;
-        top: 270px;
         box-sizing: border-box;
         position: absolute;
+        top: 270px;
         background: rgb(27,27, 27, 0.5);
         color: white;
         transition: .5s;
@@ -382,9 +382,9 @@ position: relative;
         height: 80px;
         width: 300px;
         padding: 6px;
-        top: 270px;
         box-sizing: border-box;
         position: absolute;
+        top: 270px;
         background: rgb(27,27, 27, 0.5);
         color: white;
         transition: .5s;
@@ -395,9 +395,9 @@ position: relative;
         height: 80px;
         width: 300px;
         padding: 6px;
-        top: 270px;
         box-sizing: border-box;
         position: absolute;
+        top: 270px;
         background: rgb(27,27, 27, 0.5);
         color: white;
         transition: .5s;
@@ -591,15 +591,15 @@ position: relative;
 
 }
 
-/* @media only screen and (min-width:766px){
+@media only screen and (min-width:766px){
     .botonhamb{
         display: flex;
         justify-content: flex-end;
         display: none;
     }
-} */
+}
 
-/* @media only screen and (max-width:764px){
+@media only screen and (max-width:794px){
     .botonesderechanav{
         display: none;
     }
@@ -635,7 +635,7 @@ position: relative;
     .botones{
         margin:5px
     }
-} */
+}
 
 
 

@@ -3,13 +3,19 @@
 *{
     margin: 0;
     
-    color: aliceblue;
+    
     font-family: 'Montserrat', sans-serif;
 }
 
-body{
+main{
     background-color: rgba(18, 27, 43, 1);
-  }
+    color: aliceblue;
+}
+
+body{
+  background-color: rgba(18, 27, 43, 1);
+  
+}
 
 h2{
     text-align: center;

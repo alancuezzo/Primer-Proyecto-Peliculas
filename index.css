@@ -238,7 +238,7 @@ position: relative;
 .GaleriaIntro2{
     position: absolute;
     top: 10px;
-    left: 155px;
+    left: 180px;
     background-color: transparent;
 
 }
@@ -623,9 +623,11 @@ position: relative;
     .botonesderechanav{
         display: none;
     }
-    .botonesizqnav button{
+    
+    .botonesizqnav1, .botonesizqnav2{
         display: none;
     }
+
     .botonhamb{
         display: flex;
         justify-content: flex-end;

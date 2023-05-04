@@ -36,7 +36,7 @@ h2{
     text-decoration: none;
 }
 
-.botones{
+.botonesDescripcion{
     width: 99%;
     justify-content: center;
 
@@ -78,3 +78,186 @@ form {
     width: 200px;
     height: 100px;
 }
+
+.navbar{
+  display: flex;
+  background:#235264;
+
+
+}
+
+
+.botones{
+  color: rgb(223, 223, 223);
+  background-color: #295294;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration:none;
+  box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.75);
+  text-shadow: 4px 4px 6px rgba(0,0,0,0.29);
+}
+.botonesizqnav{
+  display: flex;
+  height: 2rem; 
+  margin: 0;   
+  
+}
+.botoncontacto{
+ text-decoration: none;
+ margin-right: 10px;
+} 
+#botonloginnav{
+  text-shadow: 4px 4px 6px rgba(0,0,0,0.29);
+  margin-right: 3px;
+}
+.botonesderechanav{
+  display: flex;
+  height: 2rem;
+}
+.avatarnav{
+  width: 30px;
+  height:30px;
+  border-radius: 50%;
+  margin-left: 5px;
+  
+}
+.logoajustes{
+  margin-left: 5px;
+  padding: 3px;
+  width: 30px;
+  height:30px;
+  border-radius: 50%;
+}
+.logonavbar{
+  margin-right: 10px;
+  width: 163px;
+  height: 100%;
+  border: 1px solid grey;
+  border-radius: 5%;
+  box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+#inputsearchnav{
+  width: 100px;
+  box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.75);
+  text-shadow: 4px 4px 6px rgba(0,0,0,0.29);
+}
+
+.botonsearchnav{
+  margin-left: 10px;
+}
+
+#avatarnavcollapse{
+  width: 100px;
+  border: 1px solid gray;
+  border-radius: 10%;
+  box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.75);
+height: auto;
+}
+.collapsemob{
+  background: #751c86;
+  background: linear-gradient(2deg,#751c86 0%, #9f0fa7 80%);
+  background: -webkit-linear-gradient(2deg,#751c86 0%, #9f0fa7 80%);
+  background: -moz-linear-gradient(2deg,#751c86 0%, #9f0fa7 80%);
+}
+
+.botonesnavcollapse{
+  width: 50%;
+  text-shadow: 4px 4px 6px rgba(0,0,0,0.29);
+}
+.container-usuario{
+  width: 12rem;
+  border-radius: 5%;
+  border: 1px solid black;
+  margin-left: 30px;
+  
+}
+.botonedituser{
+  width: 30px;
+}    
+.fondoregistro{
+  background-image: url(/assets/card/navbar/fondo\ modal\ registro.jpeg) ;
+  background-size: contain;
+  
+}
+.titulomodal{
+  text-shadow: 4px 4px 6px rgba(0,0,0,0.29);
+}
+.modal-header{
+  background:#235264;
+}
+.bgmodalbody{ 
+  background-image: url(/assets/card/navbar/fondo\ modal\ registro.jpeg);
+  background-size: contain;
+}
+.shadowinput{
+  box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+@media only screen and (min-width:766px){
+  .botonhamb{
+      display: flex;
+      justify-content: flex-end;
+      display: none;
+  }
+}
+
+@media only screen and (max-width:815px){
+  .botonesderechanav{
+      display: none;
+  }
+
+  .botonesizqnav1, .botonesizqnav2{
+      display: none;
+  }
+  
+  .botonhamb{
+      display: flex;
+      justify-content: flex-end;
+  }
+
+  .logonavbar{
+      display: flex;
+      justify-content: flex-start;
+  }
+  .logonavbardnone{
+      display: none;
+  }
+  .botoncontacto{
+      margin-right: 0px;
+  }
+  .logoajustes{
+      border-radius: 10%;
+      width: 28px;
+      height: 25px;
+      height: auto;
+      
+  }
+  #inputsearchnav{
+      width: 100%;
+      height: 30px;
+  }
+  .botones{
+      margin:5px
+  }
+  
+}
+
+
+.imgCo {
+  height: 64px;
+  width: 64px;
+}
+

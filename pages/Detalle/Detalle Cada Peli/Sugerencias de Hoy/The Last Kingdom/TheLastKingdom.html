@@ -18,7 +18,41 @@
 </head>
 
 <body>
-  <header></header>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        
+        <div class="botonesizqnav">
+          <a href="/index.html"><img src="/assets/card/navbar/kraken arriba.png" class="logonavbar" alt="logonav"></a>
+          <a href="/pages/Contacto/paginacontaco.html" target="_blank" type="button" class="btn btn-outline-dark botones  botoncontacto botonesizqnav1">Contacto</a>
+          <a href="/pages/Acerca de Nosotros/nosotros.html" target="_blank" type="button" class="btn btn-outline-dark botones botonesizqnav2 ">Nosotros</a>
+        </div>
+        <div class="botonhamb">
+          <button type="button" class="btn btn-outline-dark botones" data-bs-toggle="modal" data-bs-target="#NavBarMenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+
+
+        </div>
+        <div class="botonesderechanav">
+          <form role="search" class="d-flex flex-row mx-1">
+            <input class="form-control me-2 bg-dark-subtle" type="search" placeholder="Search" aria-label="Search"
+              id="inputsearchnav">
+            <button class="btn btn-outline-dark text-center botones" type="submit"><i
+                class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+          <a href="" class="btn btn-outline-dark botones" id="botonloginnav">Ingresar</a>
+          <button type="button" class="btn btn-outline-dark botones" data-bs-toggle="modal"
+            data-bs-target="#exampleModal" id="botonregisternav">
+            Registro
+          </button>
+          <a href=""><img src="/assets/card/navbar/avatar.png" alt="avatarnav" class="avatarnav botones"></a>
+          <a href=""><img src="/assets/card/navbar/ajustes.png" alt="logoajustes" class="logoajustes botones"></a>
+        </div>
+      </div>
+    </nav>
+  </header>
   <main>
     <div class="trailer">
       <video src="/assets/card/trailerVid/The Last Kingdom _ Series 1 Full Trailer.mp4" autoplay loop controls
@@ -56,7 +90,7 @@
     <br>
     <br>
     <br>
-    <div class="d-flex  m-2 botones ">
+    <div class="d-flex  m-2 botonesDescripcion ">
       <div class="d-flex flex-column w-50 justify-content-center">
 
 
@@ -148,6 +182,28 @@
       <textarea id="message" name="message" rows="5" minlength="5" maxlength="100" size="10" required placeholder="Deja tu comentario aqui..."></textarea>
       
       <input type="submit" value="Enviar" >
+      <br>
+      <div class="mb-3">
+        <label for="formGroupExampleInput" class="form-label"><img class="imgCo" src="/assets/card/fotos de comentario/persona1.jfif" alt=""> Fernando palavecino</label>
+        <input type="text" class="form-control" id="formGroupExampleInput"  value="Excelente la calidad de las pelicas, series etc etc y planes de pagos accesibles!">
+      </div>
+      <div class="mb-3">
+        <label for="formGroupExampleInput2" class="form-label"><img class="imgCo" src="/assets/card/fotos de comentario/persona2.jpg" alt=""> Emanuel Huncos</label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" value="Me encanta Kraken!! las mejores series y peliculas las encuentro aqui!">
+      </div>
+      <div class="mb-3">
+        <label for="formGroupExampleInput3" class="form-label"><img class="imgCo" src="/assets/card/fotos de comentario/persona3.jfif" alt=""> Roberto Fernandez</label>
+        <input type="text" class="form-control" id="formGroupExampleInput3" value="Me fascina la pagina, la app para android es buenisima!
+        ">
+      </div>
+      <div class="mb-3">
+        <label for="formGroupExampleInput4" class="form-label"><img class="imgCo" src="/assets/card/fotos de comentario/persona4.jpg" alt=""> Cecilia Fernanda Orellano</label>
+        <input type="text" class="form-control" id="formGroupExampleInput4" value="Muy buena la pagina, podria tener mas variedad en genero de crimen pero me encanto igual.">
+      </div>
+      <div class="mb-3">
+        <label for="formGroupExampleInput5" class="form-label"><img class="imgCo" src="/assets/card/fotos de comentario/jardinera.jpg" alt=""> Melina Roldan</label>
+        <input type="text" class="form-control" id="formGroupExampleInput5" value="Esta pagina me la recomendo mi primo porque me dijo que tenia una pelicula de terror retro que buscaba hace mucho, gracias Krakeeeen!!">
+      </div>
     </form>
   </main>
   <br>
@@ -195,6 +251,99 @@
     </div>
   </footer>
 
+  <div class="modal fade" id="NavBarMenu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content navbarmenu">
+        <div class="modal-body bgmodalbody">
+          <div class="container d-grid ">
+            <div class="row">
+              <div class="d-flex justify-content-end d-grid col-12">
+                <form role="search" class=" d-flex ">
+                  <input class="form-control botones" type="search" placeholder="Search" aria-label="Search"
+                    id="inputsearchnav">
+                  <button class="btn btn-outline-dark text-center botones botonsearchnav" type="submit"><i
+                      class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+                <a href="" class="btn btn-outline-dark text-center botones" type="submit"><i
+                    class="fa-solid fa-gear"></i></a>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col-12 text-center">
+                <img src="/assets/card/navbar/avatar.png" alt="avatar" id="avatarnavcollapse"
+                  class=" rounded-4 border-2 text-center ">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 text-center d-flex justify-content-center">
+                <div class="container-usuario d-flex mt-3 botones">
+                  <h5 class="mt-1 usuarionav botonesnavcollapse">Usuario</h5>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="d-flex justify-content-between">
+                <a href="" class="btn btn-outline-dark botones botonesnavcollapse " id="botonloginnav"><i
+                    class="fa-solid fa-right-to-bracket mx-1"></i>Ingresar</a>
+                <button type="button" class="btn btn-outline-dark botones botonesnavcollapse " data-bs-toggle="modal"
+                  data-bs-target="#exampleModal" id="botonregisternav">
+                  <i class="fa-solid fa-user-plus mx-1"></i> Registro
+                </button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="cerrarsesionnav">
+                <a href="" type="button" class="btn btn-outline-dark botones ">Cerrar sesion</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="d-flex justify-content-around">
+                <a href="" type="button" class="btn btn-outline-dark botones  botonesnavcollapse  ">Contacto</a>
+                <a href="" type="button" class="btn btn-outline-dark botones botonesnavcollapse">Nosotros</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content fondoregistro">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 text-light titulomodal" id="exampleModalLabel">Registro</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="">
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control shadowinput" id="floatingInput" placeholder="Nombre" required minlength="2"
+                maxlength="30">
+              <label for="floatingInput">Nombre de usuario:</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="password" class="form-control shadowinput" id="floatingInput" placeholder="Contraseña" required minlength="8" maxlength="25" >
+              <label for="floatingInput">Contraseña:</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="password" class="form-control shadowinput" id="floatingInput" placeholder="Repetir Contraseña" required minlength="2" maxlength="25">
+              <label for="floatingInput">Repetir Contraseña:</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control shadowinput" id="floatingInput" placeholder="Direccion email" required>
+              <label for="floatingInput">Direccion email:</label>
+            </div>
+            <div class="d-flex">
+              <button class="btn btn-outline-dark botones" type="reset">Cancelar</button>
+              <button class="btn btn-outline-dark botones mx-1" type="submit">Registrarme</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <div class="modal fade" id="milista" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog border border-1 border-primary rounded-1">

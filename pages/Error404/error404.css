@@ -2,35 +2,25 @@
 
 *{
     margin: 0;
-   
-    color: aliceblue;
     font-family: 'Montserrat', sans-serif;
 }
 
-.cartacontenidoColor{
-  background-color: rgba(18, 27, 43, 1);
-}
-
 body{
-  background-color: rgba(18, 27, 43, 1);
+    background-color: rgba(18, 27, 43, 1);
 }
 
+.bgcolorcard{
+    background-color: rgba(18, 27, 43, 1);
+    color: aliceblue;
+}
 
-img:hover{
-    filter: grayscale(40%);
-    transition: 350ms;
-  }
-  .logoFooter{
+.logoFooter{
 
     width: 200px;
     height: 100px;
 }
-.navbar{
-  display: flex;
-  background:#235264;
 
 
-}
 
 
 .navbar{
@@ -106,7 +96,7 @@ img:hover{
 }
 
 .botonsearchnav{
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 #avatarnavcollapse{
@@ -208,10 +198,5 @@ height: auto;
   }
   
 }
-
-
-
-
-
 
 
